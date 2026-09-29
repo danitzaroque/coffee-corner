@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=devicle-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>THE COFFEE CORNER</title>
 
@@ -13,7 +13,7 @@
 <body>
     <!-- ===== HEADER ===== -->
 
-    <header>
+    <header class="header">
         <div class="barra">
 
             <a href="index.html" class="logo">
@@ -22,7 +22,7 @@
                 <span>coffee & bakery</span>
             </a>
 
-            <nav>
+            <nav class="navegacion">
                 <ul>
                     <li>
                         <a href="index.html">INICIO</a>
@@ -51,48 +51,76 @@
     </header>
 
     <main>
-        <section>
-            <div class="portada">
+        <!-- ===== HERO ===== -->
+
+        <section class="hero">
+
+            <div class="hero-imagen">
                 <img src="img/portada_img.png" alt="THE COFFEE CORNER">
             </div>
+
+            <div class="hero-contenido">
+                <h1>THE COFFEE CORNER</h1>
+                <p>coffee & bakery</p>
+            </div>
+
+        </section>
+        <!-- ===== SOBRE NOSOTROS ===== -->
+
+        <section class="sobre-nosotros">
+
+            <div class="sobre-contenido">
+
+                <h2>SOBRE NOSOTROS</h2>
+
+                <p>
+                    THE COFFEE CORNER nació con la idea de crear un espacio
+                    cálido donde el café y los sabores artesanales puedan
+                    convertirse en pequeños momentos para disfrutar.
+                </p>
+
+                <a href="nosotros.html">CONOCE NUESTRA HISTORIA</a>
+
+            </div>
+
+
+            <div class="sobre-imagen">
+
+                <img src="img/nosotros_img.png" alt="exterior de THE COFFEE CORNER">
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>SOBRE NOSOTROS</h2>
-            <p>
-                THE COFFEE CORNER nació con la idea de crear un espacio
-                cálido donde el café y los sabores artesanales puedan
-                convertirse en pequeños momentos para disfrutar.
-            </p>
-            <a href="nosotros.html">CONOCE NUESTRA HISTORIA</a>
-        </section>
+        <!-- ===== DESCUBRE NUESTROS SABORES ===== -->
 
-        <section>
+        <section class="sabores">
+
             <h2>DESCUBRE NUESTROS SABORES</h2>
 
-            <article>
-                <img src="img/cafeteria.jpg" alt="Cafetería">
+            <article class="tarjeta-sabor">
+                <img src="img/coffee_cafeteria_img.jpg" alt="Cafetería">
                 <h3>01. CAFETERÍA</h3>
                 <p>Cafés y bebidas preparadas para disfrutar cada momento.</p>
                 <a href="menu.html">VER MENÚ</a>
             </article>
 
-            <article>
-                <img src="img/panaderia.jpg" alt="Panadería">
+            <article class="tarjeta-sabor">
+                <img src="img/panaderia_img.jpg" alt="Panadería">
                 <h3>02. PANADERÍA</h3>
                 <p>Panes artesanales recién horneados y llenos de sabor.</p>
                 <a href="menu.html">VER MENÚ</a>
             </article>
 
-            <article>
-                <img src="img/reposteria.jpg" alt="Repostería">
+            <article class="tarjeta-sabor">
+                <img src="img/reposteria__img.jpg" alt="Repostería">
                 <h3>03. REPOSTERÍA</h3>
                 <p>Deliciosos dulces para acompañar tu café.</p>
                 <a href="menu.html">VER MENÚ</a>
             </article>
 
-            <article>
-                <img src="img/salados.jpg" alt="Especialidades saladas">
+            <article class="tarjeta-sabor">
+                <img src="img/especialidades_saladas_img.jpg" alt="Especialidades saladas">
                 <h3>04. ESPECIALIDADES SALADAS</h3>
                 <p>Opciones saladas para disfrutar en cualquier momento.</p>
                 <a href="menu.html">VER MENÚ</a>
@@ -101,6 +129,13 @@
         </section>
 
     </main>
+    
+    <footer>
+        <p>THE COFFEE CORNER</p>
+        <p>coffee & bakery</p>
+
+        <p>© 2026 THE COFFEE CORNER. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 
